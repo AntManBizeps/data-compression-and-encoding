@@ -1,1 +1,6 @@
 lista1/output.txt
+lista1/__pycache__/__init__.cpython-310.pyc
+lista1/__pycache__/list_one.cpython-310.pyc
+lista2/compressed_file.bin
+lista2/decoded_output.bin
+lista2/__pycache__/node.cpython-310.pyc
