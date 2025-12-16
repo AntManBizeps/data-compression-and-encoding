@@ -19,7 +19,6 @@ def encode_with_elias_omega(indices: list[int]) -> str:
         n = index + 1
         bits.append(elias_omega_encode(n))
     result = ''.join(bits)
-    print(result)
     return result
 
 
