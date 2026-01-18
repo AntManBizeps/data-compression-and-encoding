@@ -103,6 +103,7 @@ if __name__ == "__main__":
         image_original, header = read_tga(args.input)
 
         h, w, d = image_original.shape
+        print(f"Image size: {w}x{h}, Depth: {d*8} bits")
         pixels = image_original.reshape(-1, 3)
 
         quantized = lgb(pixels, int(args.k))
